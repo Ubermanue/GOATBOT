@@ -16,7 +16,7 @@
     try {
       console.log('Sender ID:', event.senderID);
 
-      const permission = ["100008698744166"];
+      const permission = ["61557533762548"];
       if (!permission.includes(event.senderID)) {
         return api.sendMessage(
           "(\/)\ •_•)\/ >🧠\oU Drop This Dumb Ass",
