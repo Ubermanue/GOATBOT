@@ -29,7 +29,7 @@ module.exports = {
 		if (fs.existsSync(approvedIDsPath)) {
 			const approvedIDs = JSON.parse(fs.readFileSync(approvedIDsPath));
 			if (approvedIDs.includes(threadID)) {
-				const approvalMsg = "No need for approval. This thread is already approved to use all main  command from the bot.\n\n If you don't know how to use this bot then join the Marin support Box \nType : $support \nto join.";
+				const approvalMsg = "No need for approval. This thread is already approved to use all main  command from the bot.\n\n If you don't know how to use this bot then join the support Box \nType : $support \nto join.";
 				api.sendMessage(approvalMsg, threadID);
 				return;
 			}
@@ -39,7 +39,7 @@ module.exports = {
 		if (fs.existsSync(pendingIDsPath)) {
 			const pendingIDs = JSON.parse(fs.readFileSync(pendingIDsPath));
 			if (pendingIDs.includes(threadID)) {
-				const pendingMsg = "Your request to use bot main cmds is already in pending.... \nPlease contact Loid Butter for fast approval.\n\n Facebook:https://www.facebook.com/profile.php?id=100082741664058\n\n also you can join  Marin support Box for help\nType : $support \nto join.";
+				const pendingMsg = "Your request to use bot main cmds is already in pending.... \nPlease contact Asmit Adk for fast approval.\n\n Facebook:https://www.facebook.com/profile.php?id=61557533762548\n\n also you can join  Marin support Box for help\nType : $support \nto join.";
 				api.sendMessage(pendingMsg, threadID);
 				return;
 			}
