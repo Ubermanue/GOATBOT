@@ -17,23 +17,19 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61556609578687",
-    "100037743553265",
-    "",
-    "100057308119335",
-		"61557439091041"
+    "61557533762548",
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "OWNER": "Priyanshi Kaur",
-  "AGE": "24",
-  "GENDER": "FEMALE",
-  "nickNameBot": "꧁𝑄𝑢𝑒𝑒𝑛𝑃𝑟𝑜꧂",
-  "FACEBOOK": "https://www.facebook.com/PriyanshiKaurJi",
-  "prefix": ".",
+  "OWNER": "Asmit Adk",
+  "AGE": "20",
+  "GENDER": "MALE",
+  "nickNameBot": "",
+  "FACEBOOK": "",
+  "prefix": "₹",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
