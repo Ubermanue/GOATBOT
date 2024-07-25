@@ -15,12 +15,12 @@ module.exports = {
  if (event.body && event.body.toLowerCase() === "prefix") {
  return message.reply({
  body: `
-Yo, my prefix is [ ₹ ]\n
+Yo giga nigga, my prefix is [ # ]\n
 𝗦𝗢𝗠𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗧𝗛𝗔𝗧 𝗠𝗔𝗬 𝗛𝗘𝗟𝗣 𝗬𝗢𝗨:
 ➥ .help [number of page] -> see commands
 ➥ .sim [message] -> talk to bot
 ➥ .callad [message] -> report any problem encountered
-➥ .help [command] -> information and usage of command\n\nHave fun using it enjoy!❤️\nBot Developer:M.me/61557533762548`,
+➥ .help [command] -> information and usage of command\n\nHave fun using it enjoy!❤️\nBot Developer:61550955013646`,
  attachment: await global.utils.getStreamFromURL("https://i.imgur.com/M4luPbE.gif")
  });
  }
